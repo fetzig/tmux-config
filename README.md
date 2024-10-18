@@ -9,6 +9,6 @@ git clone git@github.com:fetzig/tmux-config.git ~/.config/tmux
 tmux
 tmux source ~/.config/tmux/tmux.conf
 
-# install tmux plugins (<Space> is leader/prefix in this tmux config)
-<Space>-I 
+# install tmux plugins (<Ctrl-Space> is leader/prefix in this tmux config)
+<leader>-I 
 ```
