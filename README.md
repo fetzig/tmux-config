@@ -1,6 +1,7 @@
 ```shell
 # clone tmux plugin manager
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+mkdir -p ~/.config/tmux/plugins
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
 
 # clone tmux config
 git clone git@github.com:fetzig/tmux-config.git ~/.config/tmux
